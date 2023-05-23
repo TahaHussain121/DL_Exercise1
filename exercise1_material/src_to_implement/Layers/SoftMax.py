@@ -17,6 +17,18 @@ class SoftMax(Base.BaseLayer):
 
     def backward(self, error_tensor):
         #print('error_tensor', error_tensor)
-        soft = self.forward(error_tensor)
-        temp = error_tensor - np.sum(error_tensor @ soft, axis=1)
-        return soft @ temp
+        soft = self.input_tensor
+        # print('y_hat.shape = ', soft.shape)
+        # print('error_tensor', error_tensor)
+
+        #temp = error_tensor - np.sum(np.diag(error_tensor.T @ soft), axis=0)
+
+        temp = 0
+        for j in range(0, soft.shape[1]):
+            temp += np.multiply(error_tensor[:, j], soft[:, j])
+        temp = (error_tensor.T - temp).T
+
+        #print('temp', temp)
+        #print('soft', soft)
+        #print('shape multiply', np.multiply(soft, temp))
+        return np.multiply(soft, temp)      # element wise multiplication
