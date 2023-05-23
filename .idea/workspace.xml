@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05919b0d-02a6-44f1-9f5a-bf97b52d3d14" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise1_material/src_to_implement/Layers/ReLU.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1_material/src_to_implement/Layers/ReLU.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise1_material/src_to_implement/Layers/SoftMax.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1_material/src_to_implement/Layers/SoftMax.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercise1_material/src_to_implement/NeuralNetwork.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1_material/src_to_implement/NeuralNetwork.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,17 +24,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Fau DataScience/DL/Exercise/DL_Exercise1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/Fau DataScience/DL/Exercise/DL_Exercise1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Python tests in NeuralNetworkTests.py" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+      <module name="DL_Exercise1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercise1_material/src_to_implement" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;Bonus&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/exercise1_material/src_to_implement/NeuralNetworkTests.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for NeuralNetworkTests.TestNeuralNetwork1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="DL_Exercise1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Taha Hussain\anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercise1_material/src_to_implement" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;NeuralNetworkTests.TestNeuralNetwork1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for NeuralNetworkTests.TestNeuralNetwork1" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -41,7 +82,9 @@
       <option name="presentableId" value="Default" />
       <updated>1684773952901</updated>
       <workItem from="1684773960602" duration="2626000" />
-      <workItem from="1684777789025" duration="1848000" />
+      <workItem from="1684777789025" duration="1897000" />
+      <workItem from="1684779791416" duration="4507000" />
+      <workItem from="1684829933954" duration="10723000" />
     </task>
     <servers />
   </component>
@@ -60,7 +103,9 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DL_Exercise1$NeuralNetwork.coverage" NAME="NeuralNetwork Coverage Results" MODIFIED="1684777223889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise1_material/src_to_implement" />
-    <SUITE FILE_PATH="coverage/DL_Exercise1$.coverage" NAME=" Coverage Results" MODIFIED="1684779527787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise1_material/src_to_implement" />
+    <SUITE FILE_PATH="coverage/DL_Exercise1$NeuralNetwork.coverage" NAME="NeuralNetwork Coverage Results" MODIFIED="1684837115035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise1_material/src_to_implement" />
+    <SUITE FILE_PATH="coverage/DL_Exercise1$.coverage" NAME=" Coverage Results" MODIFIED="1684841421168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise1_material/src_to_implement" />
+    <SUITE FILE_PATH="coverage/DL_Exercise1$SoftMax.coverage" NAME="SoftMax Coverage Results" MODIFIED="1684836014961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise1_material/src_to_implement/Layers" />
+    <SUITE FILE_PATH="coverage/DL_Exercise1$Unittests_for_NeuralNetworkTests_TestNeuralNetwork1.coverage" NAME="Unittests for NeuralNetworkTests.TestNeuralNetwork1 Coverage Results" MODIFIED="1684840652864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise1_material/src_to_implement" />
   </component>
 </project>

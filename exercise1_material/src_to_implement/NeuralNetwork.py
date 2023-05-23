@@ -9,10 +9,12 @@ class NeuralNetwork:
 
     def forward(self):
         input_tensor, label_tensor = self.data_layer.next() #tensoris just fancy word for array?
+        self.label_tensor=label_tensor
         output = input_tensor
-        for layer in self.layers:
+        for layer in self.layers:  #iterating through layers and updating the output and finally returning the output which will be the value from last layer
             output = layer.forward(output)
-        return output
+
+        return self.loss_layer.forward(output,label_tensor)
 
     def backward(self, label_tensor):
         error_tensor = self.loss_layer.backward(label_tensor)
@@ -26,10 +28,10 @@ class NeuralNetwork:
 
     def train(self, iterations):
         for _ in range(iterations):
-            prediction = self.forward()
-            loss = self.loss_layer.forward(prediction, self.data_layer.label_tensor)
+            loss = self.forward()
+           # loss = self.loss_layer.forward(prediction, self.data_layer.label_tensor)
             self.loss.append(loss)
-            self.backward(self.data_layer.label_tensor)
+            self.backward(self.label_tensor)
             for layer in self.layers:
                 if layer.trainable:
                     layer.weights = layer.optimizer.calculate_update(layer.weights, layer.gradient_weights)
